@@ -1,0 +1,4 @@
+nltk
+python-crfsuite
+flask
+gunicorn
