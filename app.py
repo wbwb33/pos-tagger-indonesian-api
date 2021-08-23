@@ -53,7 +53,10 @@ def JsonResult(arrResult):
 # main
 
 from flask import Flask, url_for, request, jsonify
+from flask_cors import CORS
+
 application = Flask(__name__)
+CORS(application)
 
 @application.route('/')
 def api_hello():

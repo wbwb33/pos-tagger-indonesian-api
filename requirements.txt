@@ -1,4 +1,5 @@
 nltk
 python-crfsuite
 flask
+flask_cors
 gunicorn
